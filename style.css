@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #000;
+    color: #fff;
+  }
+  
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+    gap: 1px;
+    margin: 20px auto;
+    width: max-content;
+  }
+  
+  .square {
+    width: 30px;
+    height: 30px;
+    background-color: #111;
+    box-sizing: border-box;
+  }
+  
+  .wall {
+    background-color: #444;
+  }
+  
+  .pacman {
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  
+  .dot {
+    background-color: white;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .ghost {
+    background-color: red;
+    border-radius: 50%;
+  }
+   
